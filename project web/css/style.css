@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    
+}
+
+
+body,html{
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(#2596be, #041014,#145369);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/images/headerbig_5.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+.form{
+    margin-top: 150px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 50%;
+height: 64%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 30px;
+-webkit-animation: expand 4s;
+}
+@-webkit-keyframes expand{
+  0%{height:0px}
+  100%{height:64%}
+
+}
+.user{
+    width: 50px;
+    height: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+position: relative;
+left: 400px;
+bottom: 200px;
+}
+ .container input{
+    border: 1px solid black;
+    width:300px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+.login_btn{
+position: relative;
+left: 70px;
+top: 30px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+width: 140px;
+background: #145369;
+box-shadow: 0 8px 32px 0 #145369;
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid #145369;
+padding: 10px;
+color: #0a1f27;
+
+}
+  
+.signup_btn{
+  position: relative;
+left: 70px;
+bottom: 30px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+width: 140px;
+background: #145369;
+box-shadow: 0 8px 32px 0 #145369;
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid #145369;
+padding: 10px;
+color: #0a1f27;
+}
+
+
+.logo{
+  width: 290px;
+   height: 290px;
+    position: relative; 
+    right: 220px;
+}
+
+::placeholder{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.5;
+}
+
+.unameLbl{
+  position: relative; 
+  right: 300px; 
+  padding: 5px;
+   color: #0a1f27;
+}
+
+.input{
+  background-color: #23647c; 
+  border: 1px solid #043f55;
+}
+
+.pswLbl{
+  position: relative;
+   right: 300px; padding: 
+   10px; color: #0a1f27;
+}
+
+.SignUpClick{
+  position: relative;
+   top: 50px;
+    right: 200px;
+     color: #0a1f27;
+}
+
+.headerTitle{
+  font-size: 30px;
+   position: relative; 
+   left: 200px; 
+   top: 30px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif; color: #043f55;
+}
+
+.emailLbl{
+  position: relative;
+   right: 320px; 
+   bottom: 50px; 
+   padding: 5px;
+    color: #0a1f27;
+}
+
+.email{
+  background-color: #23647c; 
+  border: 1px solid #043f55;
+   position: relative;
+    bottom: 50px;
+}
+
+.unameSignupLbl{
+  position: relative; 
+  right: 300px;
+   padding: 5px;
+    color: #0a1f27; 
+    bottom: 50px;
+}
+
+.unameSignup{
+  background-color: #23647c;
+   border: 1px solid #043f55;
+    position: relative;
+     bottom: 50px;
+}
+
+.pswSignUpLbl{
+  position: relative; 
+  right: 300px; 
+  padding: 10px;
+   color: #0a1f27;
+    bottom: 50px;
+}
+
+.pswSignup{
+  background-color: #23647c; 
+  border: 1px solid #043f55;
+   position: relative;
+    bottom: 50px;
+}
+
+.signInClick{
+  position: relative; 
+  right: 200px; 
+  color: #0a1f27;
+   bottom: 20px;
+}
+.phonenumberLbl{
+  position: relative; 
+  right: 280px;
+   padding: 5px;
+    color: #0a1f27; 
+    bottom: 50px;
+}
+
+.phonenumber{
+  background-color: #23647c; 
+  border: 1px solid #043f55;
+   position: relative;
+    bottom: 50px;
+}
+
+
