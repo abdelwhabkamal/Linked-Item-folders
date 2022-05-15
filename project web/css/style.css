@@ -4,7 +4,6 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing:border-box;
-    
 }
 
 
@@ -31,8 +30,9 @@ body,html{
   }
 
 .form{
-    margin-top: 150px;
-    background: rgba( 255, 255, 255, 0.25 );
+  margin-top: 150px;
+  background: rgba(255, 255, 255, 0.25);
+  position: relative;
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
@@ -58,13 +58,22 @@ animation: expand 4s;
 .container{
     display: flex;
     flex-direction: column;
-position: relative;
-left: 400px;
-bottom: 200px;
+  position: relative;
+  left: 50%;
+  bottom: 250px;
+  }
+
+  #container_signup {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    bottom: 250px;
 }
  .container input{
+     position: relative;
     border: 1px solid black;
-    width:300px;
+    width: 50%;
     padding: 7px;
     border-radius: 10px;
 }
@@ -72,7 +81,7 @@ bottom: 200px;
 
 .login_btn{
 position: relative;
-left: 70px;
+left: 10%;
 top: 30px;
 text-decoration: none;
 font-size: 25px;
@@ -90,7 +99,7 @@ color: #0a1f27;
 }
   
 .signup_btn{
-  position: relative;
+position: relative;
 left: 70px;
 bottom: 30px;
 text-decoration: none;
@@ -149,8 +158,7 @@ color: #0a1f27;
 .headerTitle{
   font-size: 30px;
    position: relative; 
-   left: 200px; 
-   top: 30px; 
+   left: 1%;
    font-family: Verdana, Geneva, Tahoma, sans-serif; color: #043f55;
 }
 
