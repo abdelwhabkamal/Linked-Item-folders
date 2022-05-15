@@ -59,17 +59,9 @@ animation: expand 4s;
     display: flex;
     flex-direction: column;
   position: relative;
-  left: 50%;
+  left: 45%;
   bottom: 250px;
   }
-
-  #container_signup {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 50%;
-    bottom: 250px;
-}
  .container input{
      position: relative;
     border: 1px solid black;
