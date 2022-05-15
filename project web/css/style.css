@@ -124,7 +124,7 @@ color: #0a1f27;
 
 .unameLbl{
   position: relative; 
-  right: 300px; 
+   right: 44%;
   padding: 5px;
    color: #0a1f27;
 }
@@ -136,8 +136,9 @@ color: #0a1f27;
 
 .pswLbl{
   position: relative;
-   right: 300px; padding: 
-   10px; color: #0a1f27;
+   right: 44%;
+   padding:10px;
+   color: #0a1f27;
 }
 
 .SignUpClick{
