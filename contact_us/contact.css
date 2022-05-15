@@ -6,6 +6,7 @@ body {
     padding-top: 85px;
     }
     .topnav {
+        top:0%
         background-color: #333;
         overflow: hidden;
         height: 43px;
