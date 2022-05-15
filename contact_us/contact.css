@@ -3,7 +3,8 @@ body {
     background: -webkit-radial-gradient(right, rgb(24, 117, 156), rgba(66, 79, 108, 1.0));
     background: -moz-radial-gradient(right, rgb(22, 103, 138), rgba(66, 79, 108, 1.0));
     background: radial-gradient(to left, rgb(23, 109, 146), rgba(66, 79, 108, 1.0));
-    padding-top: 85px;
+    padding-top: 0px;
+    margin:0px;
     }
     .topnav {
         background-color: #333;
